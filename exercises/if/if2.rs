@@ -4,13 +4,21 @@
 // Step 2: Get the bar_for_fuzz and default_to_baz tests passing!
 // Execute the command `rustlings hint if2` if you want a hint :)
 
-// I AM NOT DONE
 
+// function fizz if foo
+// passes in an argument fizzish, which is a string
 pub fn fizz_if_foo(fizzish: &str) -> &str {
+    // if fizzish = fizz
     if fizzish == "fizz" {
+        // return foo
         "foo"
+    } else if fizzish == "fuzz" {
+        "bar"
+    } else if fizzish == "literally anything" {
+        "baz"
     } else {
-        1
+        // else return 1 as a string
+        "1"
     }
 }
 
