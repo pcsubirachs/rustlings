@@ -5,7 +5,8 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    //let a = [3,4,5];
+    let a = [3; 150];
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
