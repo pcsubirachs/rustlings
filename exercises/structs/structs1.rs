@@ -5,6 +5,8 @@
 
 struct ColorClassicStruct {
     // TODO: Something goes here
+    name = "green",
+    hex = "#00FF00",
 }
 
 struct ColorTupleStruct(/* TODO: Something goes here */);
