@@ -1,8 +1,6 @@
 // structs1.rs
 // Address all the TODOs to make the tests pass!
 
-// I AM NOT DONE
-
 // classic struct takes defined variables and types
 struct ColorClassicStruct {
     // TODO: Something goes here
@@ -24,7 +22,7 @@ mod tests {
     fn classic_c_structs() {
         // TODO: Instantiate a classic c struct!
         let green = ColorClassicStruct {
-            name: String::from("green"),
+            name: String::from("green"), 
             hex: String::from("#00FF00"),
         };
 
